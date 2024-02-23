@@ -199,7 +199,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "blockchian",
+        name: "blockchain",
         color: "orange-text-gradient",
       },
       {
