@@ -21,14 +21,18 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import kpit from "./company/kpit.png";
+import infosys from "./company/infosys.png";
+import modez from "./company/modez.png";
+
+
+import crowdfunding from "./project/crowdfunding.png";
+import algoefficiency from "./project/algorithm.png";
+import ecommerce from "./project/ecommerce.png";
+import emotion from "./project/emotion.png";
+import naviroute from "./project/Navi Route.png";
+import seo from "./project/seo.png";
 
 export {
   logo,
@@ -52,11 +56,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  kpit,
+  infosys,
+  modez,
+  crowdfunding,
+  algoefficiency,
+  ecommerce,
+  emotion,
+  naviroute,
+  seo
 };

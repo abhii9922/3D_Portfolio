@@ -8,7 +8,6 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 
-
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -36,7 +35,7 @@ const Contact = () => {
     emailjs
       .send(
         'service_5g1xhlc',
-        'template_nzuvklj',
+        'template_aivmadc',
         // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
@@ -125,16 +124,6 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
-          {/* <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                // src={github}
-                // alt='source code'
-                // className='w-1/2 h-1/2 object-contain'
-              />
-            </div> */}
         </form>
       </motion.div>
 

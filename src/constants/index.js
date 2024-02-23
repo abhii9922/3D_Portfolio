@@ -15,14 +15,16 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  kpit,
+  infosys,
+  modez,
   threejs,
+  crowdfunding,
+  algoefficiency,
+  ecommerce,
+  emotion,
+  naviroute,
+  seo
 } from "../assets";
 
 export const navLinks = [
@@ -50,11 +52,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Full Stack Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Software Developer",
     icon: creator,
   },
 ];
@@ -118,7 +120,7 @@ const experiences = [
   {
     title: "Software Developer Intern",
     company_name: "KPIT Technologies",
-    icon: starbucks,
+    icon: kpit,
     iconBg: "#383E56",
     date: "May 2023 - Aug 2023",
     points: [
@@ -131,40 +133,28 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Systems Engineer (Full-Time)",
+    company_name: "Infosys",
+    icon: infosys,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2021 - Jul 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Orchestrated the enhancement of code quality through close collaboration with a dedicated testing team comprising 6 members, culminating in effective testing and debugging of 2 pivotal applications.",
+      "Rectified over 20 production bugs, significantly stabilizing the application and meeting stringent project deadlines.",
+      "Played a pivotal role in release planning, troubleshooting production issues, and facilitating seamless production rollouts.",
+      "Gained expertise in Angular 8 and adeptly applied agile scrum methodologies to optimize project management.",
+      "Crafted Custom Objects, Entity-Relationship data models, and validation rules, resulting in streamlined application performance.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Developer Intern",
+    company_name: "ModezTech Ingenious",
+    icon: modez,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2021 - Aug 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Innovatively devised and implemented automation scripts utilizing Selenium, enabling the parallel execution of crucial tests.",
+      "Formulated and executed unit and regression test cases using pytest, contributing to the robustness of software systems.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -200,37 +190,104 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Crwodfunding Platform",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Blockchain-enabled crowdfunding platform that facilitates secure, smart contract-based fundraising and Ethereum transactions, streamlining project support and investment.",
     tags: [
       {
-        name: "react",
+        name: "thirdweb",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "blockchian",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "solidity",
         color: "pink-text-gradient",
-      },
+      }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: crowdfunding,
+    source_code_link: "https://github.com/abhii9922/WEB3-BLOCKCHAIN-BASED-CROWDFUNDING-PLATFORM",
   },
   {
-    name: "Job IT",
+    name: "Ecommerce Analysis",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Analyze e-commerce data, offering insights into customer behavior, product popularity, and sales trends through various chart comparisons with visual representation.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "aws",
+        color: "green-text-gradient",
+      },
+      {
+        name: "python",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommerce,
+    source_code_link: "https://github.com/abhii9922/EcommerceAnalysis",
+  },
+  {
+    name: "Emotion Detection",
+    description:
+      "This web-based application offers educators a low-cost, simple method to collect students' emotional feedback, adjusting teaching methods for better outcomes.",
+    tags: [
+      {
+        name: "java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "jsp",
+        color: "green-text-gradient",
+      },
+      {
+        name: "python",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: emotion,
+    source_code_link: "https://github.com/abhii9922/Emotion-Detection",
+  },
+  {
+    name: "Algorithm Efficiency Analysis",
+    description:
+      "Project is designed to perform analysis and comparison of different sorting algorithms. Displays the performance of each of the Algorithm over graphs",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sorting-algorithms",
+        color: "green-text-gradient",
+      },
+      {
+        name: "matplotlib",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: algoefficiency,
+    source_code_link: "https://github.com/abhii9922/DSA",
+  },
+  {
+    name: "Navigation & Emergency Route Planning",
+    description:
+      "This project utilizes the Floyd-Warshall algorithm finds shortest paths between landmarks, enhancing emergency routing and navigation around roadblocks.",
+    tags: [
+      {
+        name: "angular-js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
         color: "green-text-gradient",
       },
       {
@@ -238,30 +295,31 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: naviroute,
+    source_code_link: "https://github.com/abhii9922/Floyd_warshall",
   },
   {
-    name: "Trip Guide",
+    name: "Search Engine Optimization",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "optimizing website elements to improve its visibility on search engine results pages, focusing on keywords, content relevance, and site structure to attract organic traffic.",
     tags: [
       {
-        name: "nextjs",
+        name: "python-flask",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nltk",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "rabin-karp",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: seo,
+    source_code_link: "https://github.com/abhii9922/Search_engine_opt",
   },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
