@@ -1,5 +1,6 @@
 import React from "react";
-import Tilt from "react-tilt";
+// import { Tilt } from '/node_modules/.vite/deps/react-tilt.js?v=00ffd141';
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
