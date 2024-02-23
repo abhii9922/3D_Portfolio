@@ -190,7 +190,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Crwodfunding Platform",
+    name: "Crowdfunding Platform",
     description:
       "Blockchain-enabled crowdfunding platform that facilitates secure, smart contract-based fundraising and Ethereum transactions, streamlining project support and investment.",
     tags: [
